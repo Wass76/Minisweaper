@@ -316,7 +316,7 @@ public class Minisweaper extends JPanel {
                     game[x][y].isFlaged = false;
                     game[x][y].show = false;
                     if (multiPlayerMode) {
-                        if (game[x][y].bomb) {
+                        if (game[x][y].bomb) { // if(!game[x][y].bomb)
                             if (playerTurn == 1) {
                                 calculatePlayer1Score(5);
                             } else {
