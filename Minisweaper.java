@@ -54,7 +54,7 @@ public class Minisweaper extends JPanel {
                 y = r.nextInt(cols);
             } while (!game[x][y].show);
             if (game[x][y].bomb) {
-                System.out.println("You Lost");
+                System.out.println("You Lost"); //الكبيوتر خسر هون مو الزلمة
                 System.out.println("Your Score is: ");
                 System.out.println(player1Score);
                 printNshow();
